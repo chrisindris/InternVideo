@@ -12,8 +12,8 @@ from .data_utils import truncate_feats
 import pickle
 
 import io
-from petrel_client.client import Client
-client = Client()
+#from petrel_client.client import Client
+#client = Client()
 
 @register_dataset("thumos")
 class THUMOS14Dataset(Dataset):

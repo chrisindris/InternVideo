@@ -9,7 +9,7 @@ setup(
     ext_modules=[
         CppExtension(
             name = 'nms_1d_cpu',
-            sources = ['./csrc/nms_cpu.cpp'],
+            sources = ['./Downstream/Temporal-Action-Localization/libs/utils/csrc/nms_cpu.cpp'],
             extra_compile_args=['-fopenmp']
         )
     ],
